@@ -4,3 +4,22 @@
     font-family: 'Courier New', Courier, monospace;
     color: rgb(114, 110, 110);
 };
+
+a:link
+{
+    color: rgb(114, 110, 110) !important;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: rgb(114, 110, 110) !important;
+    background-color: transparent;
+}
+
+a:visited 
+{
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
