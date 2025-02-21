@@ -19,6 +19,7 @@ body
     border-left: 1;
     box-sizing: border-box;
     word-wrap: break-word;
+    scrollbar-width: none;
 }
 #contato  
 {
@@ -42,8 +43,11 @@ body
 	cursor: pointer;
 	outline: inherit;
 }
-
 .fa-solid 
 {
     color: white;
+}
+#imagemDaniel 
+{
+    width: 25rem;
 }
