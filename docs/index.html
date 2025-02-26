@@ -5,6 +5,7 @@
 	<meta name="description" content="Portifólio pessoal." />
 	<meta name="author" content="Daniel Henrique Neves Ferreira" />
 	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+	<link rel="shortcut icon" href="../bin/face-smile-regular.svg" /> 
 	<title>Portfólio</title>
 
 	<!-- imports -->
@@ -14,64 +15,89 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-	<header class="">
+	<header>
 		<div class="container">
             	<div class="row">
 				    <div class="col-md-12 my-2 page-title text-light">
-                        <h2 class="text-center">Daniel Henrique Neves Ferreira</h2>
+						<h2 class="text-center">Daniel Henrique Neves Ferreira</h2>
 						<h5 class="text-center">Estudante de ciências da computação.</h5>
-
+						
                     </div>
 					<hr class="separador">
 				</div>
-        </div>
-	</header>
-	<div class="container">
-		<div class="row justify-content-center">
-			<div id="sobre" class="col-lg-5 col-sm-5 col-md-5 mx-lg-5 my-md-2 mx-sm-2 my-lg-1 overflow-auto">
-				<div class="container">
-					<div class="card my-lg-2 my-md-2 my-sm-2 border-end">
-						<div class="card-body bg-dark text-light">
-							<div class="card-title text-center">
-								<button class="btn"><i class="fa-solid fa-chevron-left"></i></button>
-								<span id="opcaoSelecionada" class="pt-2">Sobre mim:</span>
-								<button class="btn"><i class="fa-solid fa-chevron-right"></i></button>
-							</div>
-							<hr class="separador">
-							<div class="card-text overflow-auto">
-								<div id="conteudoDoCard" class="text-center">
-									<p>Olá, me chamo Daniel Henrique Neves Ferreira e sou um estudante de ciências da computação, com foco no desenvolvimento de aplicações. Atualmente moro na Serra / ES e estudo na Universidade de Vila Velha (UVV) presencialmente, cursando no momento o 6º período. Meu objetivo é me desenvolver profissionalmente e crescer como programador.</p>
-									<img id="imagemDaniel" src="../bin/imgRosto.jpg" alt="Foto Daniel Henrique" class="rounded img-fluid img-thumbnail">
+			</div>
+		</header>
+		<div class="container overflow-auto">
+			<div class="row my-sm-5">
+				<div class="col-md-5">
+					<h2>Sobre mim:</h2>
+                    <p>Olá, me chamo Daniel Henrique Neves Ferreira. Sou um cientista da computação e desenvolvedor de software. Nasci em 2003 no Espírito Santo, Brasil. Estou me formando na Universidade de Vila Velha (UVV) no curso de Ciência da Computação.</p>
+                    <p>Atualmente, sou estagiário como Desenvolvedor de Software na gerência de sistemas do Instituto de Tecnologia da Informação e Comunicação do Estado do Espírito Santo <a href="https://prodest.es.gov.br">(PRODEST)</a>, uma escolha especializada em programação e desenvolvimento de software.</p>
+					<div class="row text-center mt-5">
+						<img src="../bin/imgRosto.jpg" alt="fotenha" class="rounded mx-auto d-block">
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="row mt-5">
+						<h2>Formação:</h2>
+                        <p>Na UVV, curso o curso de Ciência da Computação. Atualmente, estou cursando o 6º período, e espero concluir com êxito.</p>
+					</div>
+					<div class="row my-3 my-sm-2">
+						<div class="col-md-8">
+							<h2>Experiências:</h2>
+							<p>Desenvolvimento WEB e manutenção de funcionalidades com .NET em todos os níveis do framework para os sites governamentais do Espírito Santo (ES). Possuo cerca de dois anos de expêriencias com o framework, além de contato com diversos outros frameworks e linguagens como:</p>
+							<div class="row">
+								<div class="col-md-3">
+									<ul>
+										<li>.NET Core</li>
+										<li>.NET Framework</li>
+										<li>Java</li>
+										<li>JavaScript</li>
+										<li>Python</li>
+									</ul>
+								</div>
+								<div class="col-md-5">
+									<ul>
+										<li>SQL Server</li>
+										<li>PostgreSQL</li>
+										<li>MySQL</li>
+										<li>HTML/CSS</li>
+										<li>Bootstrap</li>
+										<li>Stack MEAN (MongoDB, Express, Angular, Node)</li>
+                                    </ul>
 								</div>
 							</div>
+							<p>Fora isso, prezo pela minha capacidade de aprendizado rápido de outras linguagens implementando os designs SOLID para código POO, Mobile First para sites, REST FULL para padrões de API e o foco em manter o código simples e entendível para a manutentabilidade do sistema ao deorrer dos anos.</p>
 						</div>
-					  </div>
+					</div>
+					<div class="row my-md-3 my-sm-2">
+						<h2>Projetos:</h2>
+						<p>Abaixo, você pode ver alguns dos projetos que desenvolvo ao longo do meu caminho como cientista da computação. Cada um desses tem suas próprias características, como linguagens de programação, tecnologias utilizadas, etc.</p>
+						<ul>
+							<li>
+								<a href="https://github.com/Henriqueriano/php_crud" target="_blank">Gerenciador de Informações</a>
+								<p>Uma sistema em PHP focado em um CRUD procedural com um banco local em MySQL.</p>
+							</li>
+							<li>
+								<a href="https://github.com/Henriqueriano/adv_code" target="_blank">Aventure of Code</a>
+                                <p>Um repositório para a solução de exercícios programação pra os diversos problemas do Aoc <a href="https://adventofcode.com">(Adventure of Code).</a></p>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-			<div id="contatos" class="col-lg-5 col-sm-5 col-md-5 mx-lg-5 my-md-1 mx-sm-2 my-lg-1 my-sm-3 overflow-auto">
-				<div class="container my-2">
-					<div class="card my-lg-2 my-md-2 my-sm-2">
-						<div class="card-body bg-dark text-light">
-							<div class="card-title text-center">
-								Contatos: 
-							</div>
-							<hr class="separador">
-							<div class="card-text">
-                                Email:  <a href="mailto:daniel.neves0021@gmail.com">daniel.neves0021@gmail.com</a>
-                            </div>
-							<div class="card-text">
-                                Celular: +5527997740242
-                            </div>
-							<div class="card-text">
-                                Endereço: 29176-248, Maria Niobe, Rua 8, Nº 374
-                            </div>
-							<div class="card-text">
-                                Instagram: <a href="https://www.instagram.com/henriquenf__/"><span>henriquenf__ </span><i class="fa-instagram-square"></i></a><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a>
-							</div>
-							<div class="card-text">
-                                LinkedIn: <a href="https://www.linkedin.com/in/daniel-henrique-neves-ferreira-a80606314/">https://www.linkedin.com/in/daniel-henrique-neves-ferreira-a80606314/<i class="fab fa-linkedin"></i></a>
-					  		</div>
-						</div>
+				<div class="row">
+					<div class="row my-md-3 my-sm-2">
+						<div class="col-md-8">
+                            <h2>Contato:</h2>
+                            <p>Caso tenha alguma dúvida ou quiser entrar em contato, não hesite em me enviar um recado  em qualquer um desses contatos:</p>
+							<ul>
+								<li>E-mail: <a href="mailto:daniel.ferreira@gmail.com">daniel.ferreira@gmail.com</a> <i class="fa-regular fa-envelope"></i></li>
+                                <li><a href="https://www.linkedin.com/in/daniel-henrique-neves-ferreira-a80606314/" target="_blank">LinkedIn</a> <i class="fa-brands fa-linkedin"></i></li>
+                                <li><a href="https://github.com/Henriqueriano" target="_blank">GitHub</a> <i class="fa-brands fa-github"></i></li>
+                                <li><a href="https://www.instagram.com/henriquenf__/" target="_blank">Instagram</a> <i class="fa-brands fa-instagram"></i></li>
+								<li>Whatsapp: +55(27)99774-0242 <i class="fa-regular fa-message"></i></li>
+							</ul>
+                        </div>
 					</div>
 				</div>
 			</div>
