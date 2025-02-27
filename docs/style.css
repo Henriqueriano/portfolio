@@ -4,21 +4,48 @@
     --bkg-color: rgb(255, 255, 255);
     --separador-color: rgb(255, 255, 255);
 }
+
 * 
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--text-color);
 }
+
+@keyframes go-back {
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
 body
 {
-    background-image: url(https://i.pinimg.com/originals/9e/4c/54/9e4c5447abdeb94e87507ec8bd95d6ff.gif);
+    background-image: url(https://i.pinimg.com/originals/8d/a6/9f/8da69fa761e82848b1fb839da46f43d8.gif);
     background-size: cover;
 }
-.page-title > *
+#page-title 
 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .separador 
 {
     border: 1px solid var(--separador-color);
+}
+header 
+{ 
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+    height: 20vh;
+}
+.b1 {
+    border: none;
+    background: none;
+    cursor: pointer;
+    animation: go-back 2s infinite;
+    color: var(--text-color);
 }
