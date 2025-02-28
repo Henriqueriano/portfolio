@@ -16,6 +16,7 @@
 	<script src="index.js"></script>
 </head>
 <body>
+
 	<header>
 		<div class="container">
             	<div class="row">
@@ -24,29 +25,46 @@
 						<h6 class="text-center fw-bold">• Estudante de Ciências da Computação •</h6>
                     </div>
 				<div class="row text-center d-flex justify-content-center fw-bold">
-					<div class="col-md-2">
-						<button class="b1 text-center text-light fs-2" onclick="rolar()"><i class="fa-solid fa-caret-down"></i></button></p>
+						<a class="a1 text-center text-light fs-2" href="#mainContent">
+							<i class="fa-solid fa-caret-down"></i>
+						</a>
 					</div>
 				</div>
 				</div>
 			</div>
 		</header>
+
+		<main class="mx-sm-5" id="mainContent">
 		<div class="container overflow-auto">
 			<div class="row my-sm-5">
-				<div class="col-md-5">
-					<h2>Sobre mim:</h2>
-                    <p>Olá, me chamo Daniel Henrique Neves Ferreira. Sou um Cientista da Computação e desenvolvedor de software. Nasci em 2003 no Espírito Santo, Brasil e estou me formando na Universidade de Vila Velha (UVV) no curso de Ciência da Computação.</p>
-                    <p>Atualmente, sou estagiário como Desenvolvedor de Software na gerência de sistemas do Instituto de Tecnologia da Informação e Comunicação do Estado do Espírito Santo <a href="https://prodest.es.gov.br">(PRODEST)</a>, uma escolha especializada em programação e desenvolvimento de software.</p>
-					<div class="row text-center mt-5">
-						<img src="https://raw.githubusercontent.com/Henriqueriano/portfolio/refs/heads/main/bin/imgRosto.jpg" alt="Foto de Referência" class="rounded mx-auto d-block">
+				<div class="col-md-6">
+					<div class="row my-4">
+						<h2>Sobre mim:</h2>
+						<p>Olá, me chamo Daniel Henrique Neves Ferreira. Sou um Cientista da Computação e desenvolvedor de software. Nasci em 2003 no Espírito Santo, Brasil e estou me formando na Universidade de Vila Velha (UVV) no curso de Ciência da Computação.</p>
+						<p>Atualmente, sou estagiário como Desenvolvedor de Software na gerência de sistemas do Instituto de Tecnologia da Informação e Comunicação do Estado do Espírito Santo <a href="https://prodest.es.gov.br">(PRODEST)</a>, uma escolha especializada em programação e desenvolvimento de software.</p>	
+					</div>
+					<div class="row my-md-5 my-sm-2">
+						<h2>Projetos:</h2>
+						<p>Abaixo, você pode ver alguns dos projetos que desenvolvo ao longo do meu caminho como cientista da computação. Cada um desses tem suas próprias características, como linguagens de programação, tecnologias utilizadas, etc.</p>
+						<ul>
+							<li>
+								<a href="https://github.com/Henriqueriano/php_crud" target="_blank">Gerenciador de Informações</a>
+								<p>Um sistema em PHP focado em um CRUD procedural com um banco local em MySQL.</p>
+							</li>
+							<li>
+								<a href="https://github.com/Henriqueriano/adv_code" target="_blank">Advent of Code</a>
+                                <p>Um repositório para a solução de exercícios programação pra os diversos problemas do Aoc <a href="https://adventofcode.com">(Adventure of Code).</a></p>
+							</li>
+						</ul>
 					</div>
 				</div>
-				<div class="col-md-7">
-					<div class="row mt-5">
+				<div class="col-md-6">
+					<div class="row mt-3">
 						<h2>Formação:</h2>
                         <p>Na UVV, estou no curso de Ciência da Computação. Atualmente, estou cursando o 6º período, e espero concluir com êxito no segundo semestre de 2026.</p>
+						<img src="../src/UVV_icon.png" alt="UVV"/>
 					</div>
-					<div class="row my-3 my-sm-2">
+					<div class="row my-3 my-md-3 my-sm-4">
 						<div class="col-md-8">
 							<h2>Experiências:</h2>
 							<p>Desenvolvimento WEB e manutenção de funcionalidades com .NET em todos os níveis do framework para os sites governamentais do Espírito Santo (ES). Possuo cerca de dois anos de expêriencias com o framework, além de contato com diversos outros frameworks e linguagens como:</p>
@@ -74,20 +92,6 @@
 							<p>Fora isso, prezo pela minha capacidade de aprendizado rápido de outras linguagens implementando os designs SOLID para código POO, Mobile First para sites, REST FULL para padrões de API e o foco em manter o código simples e entendível para a manutenibilidade do sistema ao deorrer dos anos.</p>
 						</div>
 					</div>
-					<div class="row my-md-3 my-sm-2">
-						<h2>Projetos:</h2>
-						<p>Abaixo, você pode ver alguns dos projetos que desenvolvo ao longo do meu caminho como cientista da computação. Cada um desses tem suas próprias características, como linguagens de programação, tecnologias utilizadas, etc.</p>
-						<ul>
-							<li>
-								<a href="https://github.com/Henriqueriano/php_crud" target="_blank">Gerenciador de Informações</a>
-								<p>Um sistema em PHP focado em um CRUD procedural com um banco local em MySQL.</p>
-							</li>
-							<li>
-								<a href="https://github.com/Henriqueriano/adv_code" target="_blank">Advent of Code</a>
-                                <p>Um repositório para a solução de exercícios programação pra os diversos problemas do Aoc <a href="https://adventofcode.com">(Adventure of Code).</a></p>
-							</li>
-						</ul>
-					</div>
 				</div>
 				<div class="row">
 					<div class="row my-md-3 my-sm-2">
@@ -105,5 +109,9 @@
 					</div>
 				</div>
 			</div>
+		</main>
+
+		<footer>
+		</footer>
 		</body>
 </html>

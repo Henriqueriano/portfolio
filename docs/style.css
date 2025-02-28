@@ -9,9 +9,10 @@
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--text-color);
+    text-wrap: wrap;
 }
 
-@keyframes go-back {
+@keyframes bounce {
     0% {
         transform: translateY(10px);
     }
@@ -22,11 +23,25 @@
         transform: translateY(10px);
     }
 }
-
+html 
+{
+    scroll-behavior: smooth;
+}
 body
 {
     background-image: url(https://i.pinimg.com/originals/8d/a6/9f/8da69fa761e82848b1fb839da46f43d8.gif);
     background-size: cover;
+}
+header 
+{ 
+    margin-top: 40vh;
+    margin-bottom: 40vh;
+    height: 20vh;
+}
+main 
+{
+    border: 1px solid lightgray;
+    background-color: black;
 }
 #page-title 
 {
@@ -36,16 +51,10 @@ body
 {
     border: 1px solid var(--separador-color);
 }
-header 
-{ 
-    margin-top: 40vh;
-    margin-bottom: 40vh;
-    height: 20vh;
-}
-.b1 {
+.a1 {
     border: none;
     background: none;
     cursor: pointer;
-    animation: go-back 2s infinite;
+    animation: bounce 2s infinite;
     color: var(--text-color);
 }
